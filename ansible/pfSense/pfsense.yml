@@ -1,0 +1,9 @@
+# pfSense Playbook
+#
+
+- name: pfSense Playbook
+  hosts: pfSense
+  gather_facts: false
+  roles:
+    - update
+  

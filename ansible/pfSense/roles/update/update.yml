@@ -1,0 +1,8 @@
+---
+# tasks file for update
+
+- name: pfSense Update - Repository Update
+  shell: pkg update
+
+- name: pfSense Upgrade - System Upgrade
+  shell: pkg upgrade -y
